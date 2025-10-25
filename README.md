@@ -1,17 +1,17 @@
-# 📘 Plataforma Digital para Marcação Eficiente de Atendimento na Secretaria da IPSS
+# Plataforma Digital para Marcação Eficiente de Atendimento na Secretaria da IPSS
 
 ### Projeto de Engenharia Informática — Universidade de Aveiro
 
 ---
 
-## 🧭 Contexto
+## Contexto
 
 Este projeto tem como objetivo modernizar e centralizar o processo de **marcações, requisições e comunicação interna** entre os diferentes setores de uma **Instituição Particular de Solidariedade Social (IPSS)**.  
 A plataforma permitirá à **Secretaria**, **Balneário Social**, **Creche/ATL** e **Escola** gerir tarefas administrativas de forma mais eficiente e digital, reduzindo a dependência de papel e contacto telefónico.
 
 ---
 
-## 🎯 Objetivos do Sistema
+## Objetivos do Sistema
 
 - Permitir a **marcação e gestão de atendimentos** (Secretaria e Balneário);
 - Facilitar a **requisição de materiais, transportes e manutenções**;
@@ -21,7 +21,7 @@ A plataforma permitirá à **Secretaria**, **Balneário Social**, **Creche/ATL**
 
 ---
 
-## 🧩 Estrutura do Projeto
+## Estrutura do Projeto
 
 | Repositório | Descrição | Tecnologia |
 |--------------|------------|-------------|
@@ -32,7 +32,7 @@ A plataforma permitirá à **Secretaria**, **Balneário Social**, **Creche/ATL**
 
 ---
 
-## 👥 Equipa de Desenvolvimento
+## Equipa de Desenvolvimento
 
 | Membro | Função | Foco |
 |--------|---------|------|
