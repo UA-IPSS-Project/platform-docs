@@ -1,51 +1,41 @@
-# Plataforma Digital para Marcação Eficiente de Atendimento na Secretaria da IPSS
+# Website
 
-### Projeto de Engenharia Informática — Universidade de Aveiro
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
----
+## Installation
 
-## Contexto
+```bash
+yarn
+```
 
-Este projeto tem como objetivo modernizar e centralizar o processo de **marcações, requisições e comunicação interna** entre os diferentes setores de uma **Instituição Particular de Solidariedade Social (IPSS)**.  
-A plataforma permitirá à **Secretaria**, **Balneário Social**, **Creche/ATL** e **Escola** gerir tarefas administrativas de forma mais eficiente e digital, reduzindo a dependência de papel e contacto telefónico.
+## Local Development
 
----
+```bash
+yarn start
+```
 
-## Objetivos do Sistema
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-- Permitir a **marcação e gestão de atendimentos** (Secretaria e Balneário);
-- Facilitar a **requisição de materiais, transportes e manutenções**;
-- Oferecer um **portal unificado** para todos os intervenientes (funcionários, técnicos, pais e utentes);
-- Automatizar **notificações, relatórios e lembretes administrativos**;
-- Garantir **simplicidade, segurança e acessibilidade** no uso.
+## Build
 
----
+```bash
+yarn build
+```
 
-## Estrutura do Projeto
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-| Repositório | Descrição | Tecnologia |
-|--------------|------------|-------------|
-| `platform-backend` | API REST e lógica de negócio | Spring Boot |
-| `platform-frontend` | Interface Web | React |
-| `platform-database` | Scripts e dados de base | PostgreSQL |
-| `platform-docs` | Documentação e microsite | Markdown / GitHub Pages |
+## Deployment
 
----
+Using SSH:
 
-## Equipa de Desenvolvimento
+```bash
+USE_SSH=true yarn deploy
+```
 
-| Membro | Função | Foco |
-|--------|---------|------|
-| Ana Pereira | Frontend | Interface e UX |
-| Maria-Aleksandra Korjenevskaya | Frontend | Design responsivo |
-| Daniel Nunes | Backend | API e segurança |
-| Nuno Faria | Backend | Lógica e autenticação |
-| Ivan Horoshko | Database | Modelação e persistência |
+Not using SSH:
 
----
+```bash
+GIT_USER=<Your GitHub username> yarn deploy
+```
 
-## 🌐 Microsite
-
-👉 https://ua-ipss-project.github.io/platform-docs/
-
----
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
