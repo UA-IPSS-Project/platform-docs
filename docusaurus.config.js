@@ -19,10 +19,10 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: 'https://UA-IPSS-Project.github.io', // seu usuário/org
-  baseUrl: '/platform-docs/',               // nome do repositório
-  organizationName: 'UA-IPSS-Project',     // org ou usuário do GitHub
-  projectName: 'platform-docs',            // nome do repositório
+  url: 'https://UA-IPSS-Project.github.io',
+  baseUrl: '/platform-docs/',
+  organizationName: 'UA-IPSS-Project',
+  projectName: 'platform-docs',
 
 
   onBrokenLinks: 'throw',
