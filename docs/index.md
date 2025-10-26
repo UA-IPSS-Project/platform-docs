@@ -3,13 +3,13 @@ layout: default
 title: Início
 ---
 
-# 📘 Plataforma Digital IPSS
+# Plataforma Digital IPSS
 
 Bem-vindo ao microsite oficial do projeto **Plataforma Digital para Marcação Eficiente de Atendimento na Secretaria da IPSS**.
 
 ---
 
-## 🔍 Secções Principais
+## Secções Principais
 - [Contexto](contexto.html)
 - [Requisitos](requisitos.html)
 - [Casos de Uso](usercases.html)
