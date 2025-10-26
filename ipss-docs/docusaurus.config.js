@@ -19,16 +19,11 @@ const config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  url: 'https://UA-IPSS-Project.github.io', // seu usuário/org
+  baseUrl: '/platform-docs/',               // nome do repositório
+  organizationName: 'UA-IPSS-Project',     // org ou usuário do GitHub
+  projectName: 'platform-docs',            // nome do repositório
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'UA-IPSS-Project', // Usually your GitHub org/user name.
-  projectName: 'platform-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
