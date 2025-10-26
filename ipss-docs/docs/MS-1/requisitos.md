@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 # Requisitos do Sistema
-
+Definem o que o sistema deve fazer e o que deve cumprir.
 ---
 
 ## Requisitos Funcionais (RF)

@@ -1,4 +1,6 @@
 # Contexto e Enquadramento
+Apresenta para o que o sistema será usado e finalidade do projeto.
+---
 
 A **Plataforma Digital para Marcação Eficiente de Atendimento na Secretaria da IPSS** surge como resposta à necessidade de modernizar e digitalizar os processos administrativos de uma instituição de solidariedade social.  
 Atualmente, grande parte das marcações, requisições e comunicações são realizadas por telefone ou papel, originando sobrecargas, atrasos e duplicações.

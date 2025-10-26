@@ -3,8 +3,7 @@ sidebar_position: 1
 ---
 
 # Personas
-
-As personas representam os principais perfis de utilizadores da **Plataforma Digital IPSS**, criadas com base nas entrevistas e necessidades identificadas nas várias valências da instituição.
+Principais perfis de utilizadores da **Plataforma Digital IPSS**
 
 ---
 

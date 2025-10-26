@@ -27,7 +27,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'UA-IPSS-Project', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -95,58 +95,34 @@ const config = {
             position: 'left',
             label: 'Documentação',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: '', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://www.florinhasdovouga.pt',
+            label: 'Florinhas do Vouga',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/UA-IPSS-Project',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://florinhas-management-system.atlassian.net/jira/software/projects/SCRUM/summary',
+            label: 'Jira',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Documentação',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Equipa Plataforma Digital IPSS, Projeto informática`,
+        logo: {
+          alt: 'Our repository logo',
+          src: '/img/github-mark-white.svg',
+          href: 'https://github.com/UA-IPSS-Project',
+          width: 24,
+          height: 24,
+        },       
+        copyright:  `Engenharia Informática - PEI <br> Copyright © 2025/2026`,
       },
       prism: {
         theme: prismThemes.github,

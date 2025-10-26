@@ -1,5 +1,6 @@
 # Arquitetura do Sistema
-
+Mostra a estrutura do sistema.
+---
 ## Visão Geral
 O sistema adota uma **arquitetura em camadas**, com separação entre interface, lógica de negócio, persistência e base de dados.
 

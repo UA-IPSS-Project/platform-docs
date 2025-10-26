@@ -28,3 +28,13 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Reduz a altura do footer */
+.footer {
+  padding: 0.5rem 1rem;  /* padding vertical e horizontal */
+  font-size: 0.9rem;     /* opcional: diminui o tamanho do texto */
+}
+.footer__copyright {
+  text-align: center;
+  line-height: 1.5; /* ajusta o espaço entre as linhas */
+} 

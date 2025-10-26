@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 
 # User Stories
-
+Representam funcionalidades do sistema visto pelo utilizador.
 ---
 
 ## Prioridade 1 — Secretaria
