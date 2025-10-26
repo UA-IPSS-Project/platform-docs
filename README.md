@@ -36,11 +36,11 @@ A plataforma permitirá à **Secretaria**, **Balneário Social**, **Creche/ATL**
 
 | Membro | Função | Foco |
 |--------|---------|------|
-| Ana Silva | Frontend | Interface e UX |
-| Maria Costa | Frontend | Design responsivo |
-| Daniel Rocha | Backend | API e segurança |
-| Nuno Alves | Backend | Lógica e autenticação |
-| Ivan Sousa | Database | Modelação e persistência |
+| Ana Pereira | Frontend | Interface e UX |
+| Maria-Aleksandra Korjenevskaya | Frontend | Design responsivo |
+| Daniel Nunes | Backend | API e segurança |
+| Nuno Faria | Backend | Lógica e autenticação |
+| Ivan Horoshko | Database | Modelação e persistência |
 
 ---
 

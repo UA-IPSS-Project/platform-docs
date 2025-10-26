@@ -1,13 +1,27 @@
-# Bem-vindo à Plataforma Digital IPSS
+---
+layout: default
+title: Início
+---
 
-Este é o microsite oficial da **Plataforma Digital para Marcação Eficiente de Atendimento na Secretaria da IPSS**.
+# 📘 Plataforma Digital IPSS
 
-🔗 Navega pela documentação:
-- [Contexto](contexto.md)
-- [Requisitos](requisitos.md)
-- [Casos de Uso](usercases.md)
-- [Personas](personas.md)
-- [Arquitetura](arquitetura.md)
-- [Testes](testes.md)
-- [Instalação](instalacao.md)
-- [Reuniões](reunioes.md)
+Bem-vindo ao microsite oficial do projeto **Plataforma Digital para Marcação Eficiente de Atendimento na Secretaria da IPSS**.
+
+---
+
+## 🔍 Secções Principais
+- [Contexto](contexto.html)
+- [Requisitos](requisitos.html)
+- [Casos de Uso](usercases.html)
+- [Personas](personas.html)
+- [Arquitetura](arquitetura.html)
+- [Testes](testes.html)
+- [Instalação](instalacao.html)
+- [Reuniões](reunioes.html)
+
+---
+
+<footer>
+  <p><strong>Projeto de Engenharia Informática</strong> — Universidade de Aveiro (DETI)</p>
+  <p>© 2025 Equipa Plataforma Digital IPSS</p>
+</footer>
