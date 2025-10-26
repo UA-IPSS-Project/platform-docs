@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Simples e Intuitiva',
-    img: '/img/intuitiva.png',
+    img: 'img/intuitiva.png',
     description: (
       <>
         A plataforma foi pensada para ser fácil de usar, mesmo por utilizadores com literacia digital básica, permitindo criar e gerir marcações em poucos cliques.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Foco na Eficiência',
-    img: '/img/eficiencia.png',
+    img: 'img/eficiencia.png',
     description: (
       <>
         O sistema automatiza tarefas administrativas, reduzindo papelada e chamadas telefónicas, para que os colaboradores se concentrem no atendimento aos utentes.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Desenvolvido com Tecnologia Moderna',
-    img: '/img/tecnologia.png',
+    img: 'img/tecnologia.png',
     description: (
       <>
         Baseado em React e Spring Boot, o sistema oferece fiabilidade, segurança e integração com as valências da IPSS.

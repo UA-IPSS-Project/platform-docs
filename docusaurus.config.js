@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Plataforma Digital IPSS',
   tagline: 'Modernização e eficiência na gestão de marcações e requisições.',
-  favicon: 'img/FlorinhasLogo.png',
+  favicon: 'img/flogo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -81,7 +81,7 @@ const config = {
         title: 'IPSS',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/FlorinhasLogo.png',
+          src: 'img/flogo.svg',
         },
         items: [
           {
@@ -112,7 +112,7 @@ const config = {
         style: 'dark',
         logo: {
           alt: 'Our repository logo',
-          src: '/img/github-mark-white.svg',
+          src: 'img/github-mark-white.svg',
           href: 'https://github.com/UA-IPSS-Project',
           width: 24,
           height: 24,
