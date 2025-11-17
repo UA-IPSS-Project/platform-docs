@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 # Casos de Uso
-Descrvem como os utilizadores irão interagir com o sitema.
+Descrevem como os utilizadores irão interagir com o sitema.
 ---
 
 ## Secretaria (Prioridade 1)
