@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-MS-2/usecases" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Use Cases | Plataforma Digital IPSS</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://UA-IPSS-Project.github.io/platform-docs/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://UA-IPSS-Project.github.io/platform-docs/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://UA-IPSS-Project.github.io/platform-docs/docs/MS-2/usecases"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Use Cases | Plataforma Digital IPSS"><meta data-rh="true" name="description" content="Atualizados de acordo com o sistema."><meta data-rh="true" property="og:description" content="Atualizados de acordo com o sistema."><link data-rh="true" rel="icon" href="/platform-docs/img/flogo.svg"><link data-rh="true" rel="canonical" href="https://UA-IPSS-Project.github.io/platform-docs/docs/MS-2/usecases"><link data-rh="true" rel="alternate" href="https://UA-IPSS-Project.github.io/platform-docs/docs/MS-2/usecases" hreflang="en"><link data-rh="true" rel="alternate" href="https://UA-IPSS-Project.github.io/platform-docs/docs/MS-2/usecases" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"MS2 - Elaboration","item":"https://UA-IPSS-Project.github.io/platform-docs/docs/category/ms2---elaboration"},{"@type":"ListItem","position":2,"name":"Use Cases","item":"https://UA-IPSS-Project.github.io/platform-docs/docs/MS-2/usecases"}]}</script><link rel="alternate" type="application/rss+xml" href="/platform-docs/blog/rss.xml" title="Plataforma Digital IPSS RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/platform-docs/blog/atom.xml" title="Plataforma Digital IPSS Atom Feed"><link rel="stylesheet" href="/platform-docs/assets/css/styles.de36383f.css">
+<script src="/platform-docs/assets/js/runtime~main.524a2279.js" defer="defer"></script>
+<script src="/platform-docs/assets/js/main.c18068a9.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/platform-docs/img/flogo.svg"><link rel="preload" as="image" href="/platform-docs/img/github-mark-white.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/platform-docs/"><div class="navbar__logo"><img src="/platform-docs/img/flogo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/platform-docs/img/flogo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">IPSS</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/platform-docs/docs/intro">Documentação</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://www.florinhasdovouga.pt" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Florinhas do Vouga<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><a href="https://github.com/UA-IPSS-Project" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><a href="https://florinhas-management-system.atlassian.net/jira/software/projects/SCRUM/summary" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Jira<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/platform-docs/docs/intro"><span title="Sobre o projeto" class="linkLabel_WmDU">Sobre o projeto</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/platform-docs/docs/category/ms1---inception"><span title="MS1 - Inception" class="categoryLinkLabel_W154">MS1 - Inception</span></a><button aria-label="Expand sidebar category &#x27;MS1 - Inception&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/platform-docs/docs/category/ms2---elaboration"><span title="MS2 - Elaboration" class="categoryLinkLabel_W154">MS2 - Elaboration</span></a><button aria-label="Collapse sidebar category &#x27;MS2 - Elaboration&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/platform-docs/docs/MS-2/requirementsgathering"><span title="Recolha de Requisitos" class="linkLabel_WmDU">Recolha de Requisitos</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/platform-docs/docs/MS-2/functionalrequirements"><span title="Requisitos Funcionais" class="linkLabel_WmDU">Requisitos Funcionais</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/platform-docs/docs/MS-2/context&amp;SOA"><span title="Context and State of the Art (SOA)" class="linkLabel_WmDU">Context and State of the Art (SOA)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/platform-docs/docs/MS-2/actors"><span title="Atores" class="linkLabel_WmDU">Atores</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/platform-docs/docs/MS-2/usecases"><span title="Use Cases" class="linkLabel_WmDU">Use Cases</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/platform-docs/docs/MS-2/Non-functionalrequirements"><span title="Requisitos Não Funcionais" class="linkLabel_WmDU">Requisitos Não Funcionais</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/platform-docs/docs/category/tutorial---extras"><span title="Tutorial - Extras" class="categoryLinkLabel_W154">Tutorial - Extras</span></a><button aria-label="Expand sidebar category &#x27;Tutorial - Extras&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/platform-docs/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/platform-docs/docs/category/ms2---elaboration"><span>MS2 - Elaboration</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Use Cases</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Use Cases</h1></header>
+<p>Atualizados de acordo com o sistema.</p>
+<ol>
+<li class="">Autenticação e Contas</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc1--autenticar-utilizador">UC1 – Autenticar utilizador<a href="#uc1--autenticar-utilizador" class="hash-link" aria-label="Direct link to UC1 – Autenticar utilizador" title="Direct link to UC1 – Autenticar utilizador" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Qualquer utilizador</p>
+<p><strong>Objetivo:</strong> Aceder ao sistema através de NIF ou email institucional.</p>
+<p><strong>Pré-condição:</strong> O utilizador tem conta ativa ou é elegível para criação automática.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O utilizador insere NIF ou email.</li>
+<li class="">O sistema valida o formato:<!-- -->
+<ul>
+<li class="">9 dígitos → perfil de utilizador/encarregado/utente. Validação de NIF pelo “nif.pt”</li>
+<li class="">email @florinhas.pt → funcionário interno.</li>
+</ul>
+</li>
+<li class="">O utilizador insere palavra-passe.</li>
+<li class="">O sistema valida credenciais e inicia sessão.</li>
+</ol>
+<h1>Casos de Uso (Use Cases)</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-autenticação-e-contas">1. Autenticação e Contas<a href="#1-autenticação-e-contas" class="hash-link" aria-label="Direct link to 1. Autenticação e Contas" title="Direct link to 1. Autenticação e Contas" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc1--autenticar-utilizador-1">UC1 – Autenticar utilizador<a href="#uc1--autenticar-utilizador-1" class="hash-link" aria-label="Direct link to UC1 – Autenticar utilizador" title="Direct link to UC1 – Autenticar utilizador" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Qualquer utilizador</p>
+<p><strong>Objetivo:</strong> Aceder ao sistema através de NIF ou email institucional.</p>
+<p><strong>Pré-condição:</strong> O utilizador tem conta ativa ou é elegível para criação automática.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O utilizador insere NIF ou email.</li>
+<li class="">O sistema valida o formato:<!-- -->
+<ul>
+<li class="">9 dígitos → perfil de utilizador/encarregado/utente. Validação de NIF pelo “nif.pt”</li>
+<li class="">email @florinhas.pt → funcionário interno.</li>
+</ul>
+</li>
+<li class="">O utilizador insere palavra-passe.</li>
+<li class="">O sistema valida credenciais e inicia sessão.</li>
+</ol>
+<p><strong>Resultado:</strong> A sessão é iniciada com o painel correspondente ao perfil.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc2--criar-conta-manualmente">UC2 – Criar conta manualmente<a href="#uc2--criar-conta-manualmente" class="hash-link" aria-label="Direct link to UC2 – Criar conta manualmente" title="Direct link to UC2 – Criar conta manualmente" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Utilizador externo</p>
+<p><strong>Objetivo:</strong> Criar conta com dados básicos e identidade única.</p>
+<p><strong>Pré-condição:</strong> O NIF ainda não existe no sistema.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O utilizador preenche dados obrigatórios.</li>
+<li class="">O sistema valida unicidade de NIF.</li>
+<li class="">O sistema valida os dados existentes a partir do cartão de cidadão.</li>
+<li class="">A conta é criada.</li>
+</ol>
+<p><strong>Resultado:</strong> O utilizador recebe confirmação e pode iniciar sessão.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc3--criação-automática-de-conta">UC3 – Criação automática de conta<a href="#uc3--criação-automática-de-conta" class="hash-link" aria-label="Direct link to UC3 – Criação automática de conta" title="Direct link to UC3 – Criação automática de conta" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Sistema</p>
+<p><strong>Objetivo:</strong> Criar conta para utente/encarregado quando o sistema recebe marcação ou candidatura e o NIF ainda não existe.</p>
+<p><strong>Pré-condição:</strong> Surge uma marcação ou candidatura associada a NIF não existente.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O sistema verifica inexistência da conta.</li>
+<li class="">Cria automaticamente o utilizador.</li>
+<li class="">Envia token de acesso para contacto registado.</li>
+</ol>
+<p><strong>Resultado:</strong> O utilizador passa a ter conta associada ao NIF.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc4--envio-de-token-de-acesso">UC4 – Envio de token de acesso<a href="#uc4--envio-de-token-de-acesso" class="hash-link" aria-label="Direct link to UC4 – Envio de token de acesso" title="Direct link to UC4 – Envio de token de acesso" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Sistema</p>
+<p><strong>Objetivo:</strong> Permitir ao utilizador aceder ao sistema quando a conta é criada automaticamente.</p>
+<p><strong>Pré-condição:</strong> Conta criada (UC3).</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O sistema envia token via email/SMS.</li>
+<li class="">O utilizador usa token como acesso inicial à conta.</li>
+</ol>
+<p><strong>Resultado:</strong> A conta é ativada e o utilizador acede ao sistema.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-secretaria">2. Secretaria<a href="#2-secretaria" class="hash-link" aria-label="Direct link to 2. Secretaria" title="Direct link to 2. Secretaria" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc5--criar-marcação-presencial">UC5 – Criar marcação presencial<a href="#uc5--criar-marcação-presencial" class="hash-link" aria-label="Direct link to UC5 – Criar marcação presencial" title="Direct link to UC5 – Criar marcação presencial" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Registar atendimentos presenciais (ex.: reunião, entrega de documentos, inscrição).</p>
+<p><strong>Pré-condição:</strong> O utente está presente ou contacta por telefone.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">A funcionária abre “Nova Marcação”.</li>
+<li class="">Seleciona data e hora.</li>
+<li class="">Introduz dados do utente ou identifica via NIF.</li>
+<li class="">Indica tipo de atendimento.</li>
+<li class="">Confirma.</li>
+</ol>
+<p><strong>Resultado:</strong> Marcação registada e visível para utente e secretaria.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc6--criar-marcação-remota-utilizador">UC6 – Criar marcação remota (utilizador)<a href="#uc6--criar-marcação-remota-utilizador" class="hash-link" aria-label="Direct link to UC6 – Criar marcação remota (utilizador)" title="Direct link to UC6 – Criar marcação remota (utilizador)" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Utilizador externo</p>
+<p><strong>Objetivo:</strong> Agendar atendimento sem intervenção da secretaria.</p>
+<p><strong>Pré-condição:</strong> O utilizador tem conta ativa.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O utilizador acede a “Agenda”.</li>
+<li class="">Seleciona um horário disponível na agenda.</li>
+<li class="">Escolhe tipo de atendimento.</li>
+<li class="">Confirma pedido.</li>
+</ol>
+<p><strong>Resultado:</strong> Marcação criada e visível na agenda da secretaria.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc7--cancelar-marcação">UC7 – Cancelar marcação<a href="#uc7--cancelar-marcação" class="hash-link" aria-label="Direct link to UC7 – Cancelar marcação" title="Direct link to UC7 – Cancelar marcação" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Cancelar marcações de qualquer origem.</p>
+<p><strong>Pré-condição:</strong> Marcação ativa.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">A funcionária abre “Agenda”.</li>
+<li class="">Seleciona marcação.</li>
+<li class="">Indica motivo de cancelamento.</li>
+<li class="">Confirma.</li>
+</ol>
+<p><strong>Resultado:</strong> Marcação cancelada e utilizadores notificados.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc8--consultar-e-gerir-agenda">UC8 – Consultar e gerir agenda<a href="#uc8--consultar-e-gerir-agenda" class="hash-link" aria-label="Direct link to UC8 – Consultar e gerir agenda" title="Direct link to UC8 – Consultar e gerir agenda" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Consultar marcações com filtros avançados.</p>
+<p><strong>Pré-condição:</strong> Existem marcações registadas.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">A funcionária abre “Agenda Geral”.</li>
+<li class="">Filtra por data, assunto ou utente.</li>
+</ol>
+<p><strong>Resultado:</strong> A agenda da Secretaria é apresentada com os filtros aplicados.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc9--atualizar-estado-das-marcações">UC9 – Atualizar estado das marcações<a href="#uc9--atualizar-estado-das-marcações" class="hash-link" aria-label="Direct link to UC9 – Atualizar estado das marcações" title="Direct link to UC9 – Atualizar estado das marcações" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Marcar marcação como em curso, concluída, cancelada e agendada com aviso.</p>
+<p><strong>Pré-condição:</strong> Marcação existente.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">A funcionária seleciona marcação.</li>
+<li class="">Notificar utilizador de documentos inválidos, se necessário.</li>
+<li class="">Atualiza o estado.</li>
+</ol>
+<p><strong>Resultado:</strong> Estado atualizado e visível ao utilizador.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc10--gerir-requisições">UC10 – Gerir requisições<a href="#uc10--gerir-requisições" class="hash-link" aria-label="Direct link to UC10 – Gerir requisições" title="Direct link to UC10 – Gerir requisições" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Processar requisições de material, transporte ou manutenção.</p>
+<p><strong>Pré-condição:</strong> Requisições submetidas.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">A funcionária abre módulo “Requisições”.</li>
+<li class="">Filtra por tipo ou valência.</li>
+<li class="">Atualiza estado (em análise, aprovado, concluído, cancelado).</li>
+</ol>
+<p><strong>Resultado:</strong> Estado atualizado e visível ao requisitante.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc11--enviar-notificações-administrativas-lembretes-e-prazos">UC11 – Enviar notificações administrativas (lembretes e prazos)<a href="#uc11--enviar-notificações-administrativas-lembretes-e-prazos" class="hash-link" aria-label="Direct link to UC11 – Enviar notificações administrativas (lembretes e prazos)" title="Direct link to UC11 – Enviar notificações administrativas (lembretes e prazos)" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Receber e gerir notificações automáticas enviadas pelo sistema relacionadas com prazos administrativos e lembretes internos.</p>
+<p><strong>Pré-condição:</strong> Existência de notificações automáticas configuradas.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">A funcionária acede ao módulo “Notificações”.</li>
+<li class="">Visualiza lembretes gerados pelo sistema.</li>
+<li class="">Marca cada lembrete como resolvido ou pendente.</li>
+</ol>
+<p><strong>Resultado:</strong> O histórico de lembretes é atualizado.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc12--gerar-relatórios">UC12 – Gerar relatórios<a href="#uc12--gerar-relatórios" class="hash-link" aria-label="Direct link to UC12 – Gerar relatórios" title="Direct link to UC12 – Gerar relatórios" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Exportar relatórios de marcações, requisições e consumos.</p>
+<p><strong>Pré-condição:</strong> Existência de dados registados.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">A funcionária acede ao módulo “Relatórios”.</li>
+<li class="">Seleciona o tipo de relatório (marcações, requisições, consumos).</li>
+<li class="">Filtra por período ou valência.</li>
+<li class="">Exporta em PDF ou Excel.</li>
+</ol>
+<p><strong>Resultado:</strong> O relatório é gerado e guardado ou partilhado internamente.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc13--consultar-dados-logísticos">UC13 – Consultar dados logísticos<a href="#uc13--consultar-dados-logísticos" class="hash-link" aria-label="Direct link to UC13 – Consultar dados logísticos" title="Direct link to UC13 – Consultar dados logísticos" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Aceder aos consumos de água, produtos ou outros recursos enviados pelas valências.</p>
+<p><strong>Pré-condição:</strong> Existem dados de consumo registados pelas valências.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">A funcionária acede a “Dados Logísticos”.</li>
+<li class="">Filtra por valência ou tipo de recurso.</li>
+<li class="">Consulta valores e, opcionalmente, exporta relatório.</li>
+</ol>
+<p><strong>Resultado:</strong> Os dados logísticos ficam acessíveis para análise.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc14--gerir-contas-internas">UC14 – Gerir contas internas<a href="#uc14--gerir-contas-internas" class="hash-link" aria-label="Direct link to UC14 – Gerir contas internas" title="Direct link to UC14 – Gerir contas internas" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria com permissões administrativas</p>
+<p><strong>Objetivo:</strong> Criar, editar e desativar contas de utilizadores internos.</p>
+<p><strong>Pré-condição:</strong> A funcionária tem permissões administrativas.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">A funcionária acede ao módulo “Gestão de Utilizadores Internos”.</li>
+<li class="">Cria nova conta com papel pré-definido.</li>
+<li class="">Guarda alterações.</li>
+</ol>
+<p><strong>Resultado:</strong> As contas internas ficam atualizadas.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc15--criação-automática-de-conta-durante-marcação">UC15 – Criação automática de conta durante marcação<a href="#uc15--criação-automática-de-conta-durante-marcação" class="hash-link" aria-label="Direct link to UC15 – Criação automática de conta durante marcação" title="Direct link to UC15 – Criação automática de conta durante marcação" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Sistema</p>
+<p><strong>Objetivo:</strong> Criar automaticamente uma conta sempre que uma marcação é feita com um NIF ainda não registado.</p>
+<p><strong>Pré-condição:</strong> Marcação submetida com NIF inexistente no sistema.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O sistema verifica que o NIF não está registado.</li>
+<li class="">Cria automaticamente a conta.</li>
+<li class="">Associa a marcação ao novo utilizador.</li>
+</ol>
+<p><strong>Resultado:</strong> A conta é criada e associada à marcação.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc16--enviar-token-de-acesso-após-criação-automática">UC16 – Enviar token de acesso após criação automática<a href="#uc16--enviar-token-de-acesso-após-criação-automática" class="hash-link" aria-label="Direct link to UC16 – Enviar token de acesso após criação automática" title="Direct link to UC16 – Enviar token de acesso após criação automática" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Sistema</p>
+<p><strong>Objetivo:</strong> Enviar ao utilizador um token para aceder à conta criada automaticamente.</p>
+<p><strong>Pré-condição:</strong> Conta criada automaticamente (UC15).</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O sistema gera token de acesso temporário.</li>
+<li class="">Envia esse token para o contacto registado do utilizador.</li>
+</ol>
+<p><strong>Resultado:</strong> O utilizador recebe um token que permite o primeiro acesso.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc17--enviar-token-para-recuperar-a-palavra-passe">UC17 – Enviar token para recuperar a palavra-passe<a href="#uc17--enviar-token-para-recuperar-a-palavra-passe" class="hash-link" aria-label="Direct link to UC17 – Enviar token para recuperar a palavra-passe" title="Direct link to UC17 – Enviar token para recuperar a palavra-passe" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Sistema</p>
+<p><strong>Objetivo:</strong> Enviar token para um utilizador para recuperar palavra-passe.</p>
+<p><strong>Pré-condição:</strong> Existe uma conta associada ao NIF do utilizador em questão.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O sistema identifica a conta do NIF em questão.</li>
+<li class="">Gera token para a recuperação da palavra-passe.</li>
+<li class="">Envia token para o contacto do utilizador.</li>
+</ol>
+<p><strong>Resultado:</strong> O utilizador pode entrar na sua conta através do token e mudar a palavra-passe.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc18--enviar-token-novo-caso-estiver-expirado">UC18 – Enviar token novo caso estiver expirado<a href="#uc18--enviar-token-novo-caso-estiver-expirado" class="hash-link" aria-label="Direct link to UC18 – Enviar token novo caso estiver expirado" title="Direct link to UC18 – Enviar token novo caso estiver expirado" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Sistema</p>
+<p><strong>Objetivo:</strong> Enviar token para um utilizador se o token anterior estiver expirado.</p>
+<p><strong>Pré-condição:</strong> Existe uma conta associada ao NIF do utilizador em questão.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O sistema identifica a conta do NIF em questão.</li>
+<li class="">Gera um novo token.</li>
+<li class="">Envia token para o contacto do utilizador.</li>
+</ol>
+<p><strong>Resultado:</strong> O utilizador pode entrar na sua conta através do token.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc19--consultar-e-filtrar-marcações-passadas">UC19 – Consultar e filtrar marcações passadas<a href="#uc19--consultar-e-filtrar-marcações-passadas" class="hash-link" aria-label="Direct link to UC19 – Consultar e filtrar marcações passadas" title="Direct link to UC19 – Consultar e filtrar marcações passadas" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Consultar marcações passadas com filtros aplicáveis.</p>
+<p><strong>Pré-condição:</strong> Existência de marcações anteriores.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">A funcionária acede à secção “Histórico”.</li>
+<li class="">Filtra por data, atendente, utente, tipo de atendimento e estado.</li>
+</ol>
+<p><strong>Resultado:</strong> As marcações passadas são exibidas conforme filtros.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc20--definir-palavra-passe-no-primeiro-acesso-via-token">UC20 – Definir palavra-passe no primeiro acesso via token<a href="#uc20--definir-palavra-passe-no-primeiro-acesso-via-token" class="hash-link" aria-label="Direct link to UC20 – Definir palavra-passe no primeiro acesso via token" title="Direct link to UC20 – Definir palavra-passe no primeiro acesso via token" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Utilizador</p>
+<p><strong>Objetivo:</strong> Definir a primeira palavra-passe após aceder com token.</p>
+<p><strong>Pré-condição:</strong> O utilizador acede pela primeira vez via token enviado automaticamente.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O utilizador entra no sistema através do token.</li>
+<li class="">O sistema bloqueia acesso ao painel principal.</li>
+<li class="">O sistema exige criação de nova palavra-passe.</li>
+<li class="">O utilizador define palavra-passe válida.</li>
+</ol>
+<p><strong>Resultado:</strong> A palavra-passe é atualizada e o acesso é desbloqueado.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-balneário-social">3. Balneário Social<a href="#3-balneário-social" class="hash-link" aria-label="Direct link to 3. Balneário Social" title="Direct link to 3. Balneário Social" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc21--marcação-pelo-técnico">UC21 – Marcação pelo técnico<a href="#uc21--marcação-pelo-técnico" class="hash-link" aria-label="Direct link to UC21 – Marcação pelo técnico" title="Direct link to UC21 – Marcação pelo técnico" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Técnico de Acompanhamento Social</p>
+<p><strong>Objetivo:</strong> Agendar banhos ou atendimentos de higiene.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O técnico autentica-se.</li>
+<li class="">Escolhe horário.</li>
+<li class="">Identifica utente.</li>
+<li class="">Indica consumos adicionais.</li>
+</ol>
+<p><strong>Resultado:</strong> Marcação visível para balneário e secretaria.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc22--registar-presença-sem-técnico">UC22 – Registar presença sem técnico<a href="#uc22--registar-presença-sem-técnico" class="hash-link" aria-label="Direct link to UC22 – Registar presença sem técnico" title="Direct link to UC22 – Registar presença sem técnico" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Responsável do Balneário</p>
+<p><strong>Objetivo:</strong> Criar marcação direta para utente não acompanhado.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Marcações”.</li>
+<li class="">Escolher horário.</li>
+<li class="">Identifica utente.</li>
+<li class="">Registar consumos e necessidades.</li>
+</ol>
+<p><strong>Resultado:</strong> Registo visível ao sistema.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc23--confirmar-presença-e-consumos">UC23 – Confirmar presença e consumos<a href="#uc23--confirmar-presença-e-consumos" class="hash-link" aria-label="Direct link to UC23 – Confirmar presença e consumos" title="Direct link to UC23 – Confirmar presença e consumos" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Responsável do Balneário</p>
+<p><strong>Objetivo:</strong> Validar que o utente compareceu e o que utilizou.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir agenda do dia.</li>
+<li class="">Marcar “presente”.</li>
+<li class="">Atualizar consumos.</li>
+</ol>
+<p><strong>Resultado:</strong> Histórico atualizado.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc24--consultar-e-cancelar-marcações">UC24 – Consultar e cancelar marcações<a href="#uc24--consultar-e-cancelar-marcações" class="hash-link" aria-label="Direct link to UC24 – Consultar e cancelar marcações" title="Direct link to UC24 – Consultar e cancelar marcações" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Responsável do Balneário</p>
+<p><strong>Objetivo:</strong> Consultar marcações existentes e cancelar marcações quando necessário.</p>
+<p><strong>Pré-condição:</strong> Existem marcações registadas para o Balneário.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O responsável abre a “Agenda do Balneário”.</li>
+<li class="">Filtra por utente, técnico ou data.</li>
+<li class="">Seleciona a marcação pretendida.</li>
+<li class="">Cancela a marcação e indica o motivo.</li>
+</ol>
+<p><strong>Resultado:</strong> A marcação é cancelada e o técnico responsável (se existir) é notificado.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc25--relatórios-do-balneário">UC25 – Relatórios do balneário<a href="#uc25--relatórios-do-balneário" class="hash-link" aria-label="Direct link to UC25 – Relatórios do balneário" title="Direct link to UC25 – Relatórios do balneário" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Responsável do Balneário</p>
+<p><strong>Objetivo:</strong> Exportar relatórios de uso.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Aceder a “Relatórios”.</li>
+<li class="">Escolher tipo.</li>
+<li class="">Exportar.</li>
+</ol>
+<p><strong>Resultado:</strong> Documento gerado.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-requisições-de-material-e-transporte">4. Requisições de Material e Transporte<a href="#4-requisições-de-material-e-transporte" class="hash-link" aria-label="Direct link to 4. Requisições de Material e Transporte" title="Direct link to 4. Requisições de Material e Transporte" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc26--criar-requisição-de-material">UC26 – Criar requisição de material<a href="#uc26--criar-requisição-de-material" class="hash-link" aria-label="Direct link to UC26 – Criar requisição de material" title="Direct link to UC26 – Criar requisição de material" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionário</p>
+<p><strong>Objetivo:</strong> Pedir materiais necessários à secretaria.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Requisições”.</li>
+<li class="">Selecionar “Material”.</li>
+<li class="">Preencher informações necessárias.</li>
+</ol>
+<p><strong>Resultado:</strong> Pedido enviado à secretaria.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc27--criar-requisição-de-transporte">UC27 – Criar requisição de transporte<a href="#uc27--criar-requisição-de-transporte" class="hash-link" aria-label="Direct link to UC27 – Criar requisição de transporte" title="Direct link to UC27 – Criar requisição de transporte" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionário</p>
+<p><strong>Objetivo:</strong> Pedir viaturas para deslocações internas.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Requisições”.</li>
+<li class="">Selecionar “Transporte”.</li>
+<li class="">Preencher informações necessárias.</li>
+</ol>
+<p><strong>Resultado:</strong> Pedido registado.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc28--acompanhar-estado-das-requisições">UC28 – Acompanhar estado das requisições<a href="#uc28--acompanhar-estado-das-requisições" class="hash-link" aria-label="Direct link to UC28 – Acompanhar estado das requisições" title="Direct link to UC28 – Acompanhar estado das requisições" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionário</p>
+<p><strong>Objetivo:</strong> Ver andamento das requisições criadas.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Minhas Requisições”.</li>
+<li class="">Filtrar por tipo/estado.</li>
+<li class="">Consultar observações.</li>
+</ol>
+<p><strong>Resultado:</strong> Transparência do processo.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc29--relatório-mensal-automático-de-materiais">UC29 – Relatório mensal automático de materiais<a href="#uc29--relatório-mensal-automático-de-materiais" class="hash-link" aria-label="Direct link to UC29 – Relatório mensal automático de materiais" title="Direct link to UC29 – Relatório mensal automático de materiais" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Sistema</p>
+<p><strong>Objetivo:</strong> Gerar documento com materiais acumulados no mês.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O sistema agrega dados ao longo do mês.</li>
+<li class="">No final, gera relatório.</li>
+<li class="">Envia à secretaria.</li>
+</ol>
+<p><strong>Resultado:</strong> Relatório entregue sem intervenção manual.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-manutenções">5. Manutenções<a href="#5-manutenções" class="hash-link" aria-label="Direct link to 5. Manutenções" title="Direct link to 5. Manutenções" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc30--reportar-ocorrência-de-manutenção">UC30 – Reportar ocorrência de manutenção<a href="#uc30--reportar-ocorrência-de-manutenção" class="hash-link" aria-label="Direct link to UC30 – Reportar ocorrência de manutenção" title="Direct link to UC30 – Reportar ocorrência de manutenção" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionário</p>
+<p><strong>Objetivo:</strong> Informar problemas de instalação.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Manutenções”.</li>
+<li class="">Nova ocorrência.</li>
+<li class="">Preencher categoria, prioridade, descrição e anexos.</li>
+</ol>
+<p><strong>Resultado:</strong> Solicitação enviada.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc31--acompanhar-estado-de-ocorrência">UC31 – Acompanhar estado de ocorrência<a href="#uc31--acompanhar-estado-de-ocorrência" class="hash-link" aria-label="Direct link to UC31 – Acompanhar estado de ocorrência" title="Direct link to UC31 – Acompanhar estado de ocorrência" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionário</p>
+<p><strong>Objetivo:</strong> Ver evolução da manutenção.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Ocorrências Submetidas”.</li>
+<li class="">Consultar estado e comentários.</li>
+</ol>
+<p><strong>Resultado:</strong> Informação atualizada.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc32--atualizar-estado-pela-secretaria">UC32 – Atualizar estado pela Secretaria<a href="#uc32--atualizar-estado-pela-secretaria" class="hash-link" aria-label="Direct link to UC32 – Atualizar estado pela Secretaria" title="Direct link to UC32 – Atualizar estado pela Secretaria" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Gerir fases da manutenção.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Requisitos - Manutenções”.</li>
+<li class="">Atualizar estado: pendente, em curso, concluído.</li>
+</ol>
+<p><strong>Resultado:</strong> Funcionário notificado.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc33--gerir-manutenções-preventivas">UC33 – Gerir manutenções preventivas<a href="#uc33--gerir-manutenções-preventivas" class="hash-link" aria-label="Direct link to UC33 – Gerir manutenções preventivas" title="Direct link to UC33 – Gerir manutenções preventivas" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Controlar lembretes periódicos.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O sistema gera lembretes.</li>
+<li class="">A funcionária marca como resolvido/pendente.</li>
+<li class="">Atualiza próxima data.</li>
+</ol>
+<p><strong>Resultado:</strong> Painel atualizado.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-formulários-crecheatl">6. Formulários Creche/ATL<a href="#6-formulários-crecheatl" class="hash-link" aria-label="Direct link to 6. Formulários Creche/ATL" title="Direct link to 6. Formulários Creche/ATL" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc34--submeter-formulário-de-inscrição">UC34 – Submeter formulário de inscrição<a href="#uc34--submeter-formulário-de-inscrição" class="hash-link" aria-label="Direct link to UC34 – Submeter formulário de inscrição" title="Direct link to UC34 – Submeter formulário de inscrição" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Encarregado de Educação</p>
+<p><strong>Objetivo:</strong> Submeter candidatura da Creche ou ATL para a secretaria.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Aceder ao portal.</li>
+<li class="">Preencher formulário.</li>
+<li class="">Anexar documentos obrigatórios.</li>
+<li class="">Submeter.</li>
+</ol>
+<p><strong>Resultado:</strong> Candidatura registada.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc35--consultar-estado-da-candidatura">UC35 – Consultar estado da candidatura<a href="#uc35--consultar-estado-da-candidatura" class="hash-link" aria-label="Direct link to UC35 – Consultar estado da candidatura" title="Direct link to UC35 – Consultar estado da candidatura" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Encarregado de Educação</p>
+<p><strong>Objetivo:</strong> Ver estado atualizado.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Minhas Candidaturas”.</li>
+<li class="">Ver estado: pendente, aprovada, incompleta, rejeitada.</li>
+</ol>
+<p><strong>Resultado:</strong> Informação disponível.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc36--editar-e-reenviar-candidatura">UC36 – Editar e reenviar candidatura<a href="#uc36--editar-e-reenviar-candidatura" class="hash-link" aria-label="Direct link to UC36 – Editar e reenviar candidatura" title="Direct link to UC36 – Editar e reenviar candidatura" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Encarregado de Educação</p>
+<p><strong>Objetivo:</strong> Corrigir informação devolvida pela secretaria.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir candidatura marcada como “Correção necessária”.</li>
+<li class="">Editar.</li>
+<li class="">Reenviar.</li>
+</ol>
+<p><strong>Resultado:</strong> Envio atualizado.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc37--enviar-documentação-adicional">UC37 – Enviar documentação adicional<a href="#uc37--enviar-documentação-adicional" class="hash-link" aria-label="Direct link to UC37 – Enviar documentação adicional" title="Direct link to UC37 – Enviar documentação adicional" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Encarregado de Educação</p>
+<p><strong>Objetivo:</strong> Inserir documentos pedidos após a submissão.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir candidatura.</li>
+<li class="">“Adicionar Documento”.</li>
+<li class="">Anexar ficheiros.</li>
+</ol>
+<p><strong>Resultado:</strong> Documentos disponíveis para análise.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc27--criar-requisição-de-transporte-1">UC27 – Criar requisição de transporte<a href="#uc27--criar-requisição-de-transporte-1" class="hash-link" aria-label="Direct link to UC27 – Criar requisição de transporte" title="Direct link to UC27 – Criar requisição de transporte" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionário</p>
+<p><strong>Objetivo:</strong> Pedir viaturas para deslocações internas.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Requisições”.</li>
+<li class="">Selecionar “Transporte”.</li>
+<li class="">Preencher informações necessárias.</li>
+</ol>
+<p><strong>Resultado:</strong> Pedido registado.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc28--acompanhar-estado-das-requisições-1">UC28 – Acompanhar estado das requisições<a href="#uc28--acompanhar-estado-das-requisições-1" class="hash-link" aria-label="Direct link to UC28 – Acompanhar estado das requisições" title="Direct link to UC28 – Acompanhar estado das requisições" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionário</p>
+<p><strong>Objetivo:</strong> Ver andamento das requisições criadas.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Minhas Requisições”.</li>
+<li class="">Filtrar por tipo/estado.</li>
+<li class="">Consultar observações.</li>
+</ol>
+<p>**Result</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Aceder a “Relatórios”.</li>
+<li class="">Escolher tipo.</li>
+<li class="">Exportar.</li>
+</ol>
+<p><strong>Resultado:</strong> Documento gerado.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-requisições-de-material-e-transporte-1">4. Requisições de Material e Transporte<a href="#4-requisições-de-material-e-transporte-1" class="hash-link" aria-label="Direct link to 4. Requisições de Material e Transporte" title="Direct link to 4. Requisições de Material e Transporte" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc26--criar-requisição-de-material-1">UC26 – Criar requisição de material<a href="#uc26--criar-requisição-de-material-1" class="hash-link" aria-label="Direct link to UC26 – Criar requisição de material" title="Direct link to UC26 – Criar requisição de material" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionário</p>
+<p><strong>Objetivo:</strong> Pedir materiais necessários à secretaria.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Requisições”.</li>
+<li class="">Selecionar “Material”.</li>
+<li class="">Preencher informações necessárias.</li>
+</ol>
+<p><strong>Resultado:</strong> Pedido enviado à secretaria.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc27--criar-requisição-de-transporte-2">UC27 – Criar requisição de transporte<a href="#uc27--criar-requisição-de-transporte-2" class="hash-link" aria-label="Direct link to UC27 – Criar requisição de transporte" title="Direct link to UC27 – Criar requisição de transporte" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionário</p>
+<p><strong>Objetivo:</strong> Pedir viaturas para deslocações internas.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Requisições”.</li>
+<li class="">Selecionar “Transporte”.</li>
+<li class="">Preencher informações necessárias.</li>
+</ol>
+<p><strong>Resultado:</strong> Pedido registado.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc28--acompanhar-estado-das-requisições-2">UC28 – Acompanhar estado das requisições<a href="#uc28--acompanhar-estado-das-requisições-2" class="hash-link" aria-label="Direct link to UC28 – Acompanhar estado das requisições" title="Direct link to UC28 – Acompanhar estado das requisições" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionário</p>
+<p><strong>Objetivo:</strong> Ver andamento das requisições criadas.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Minhas Requisições”.</li>
+<li class="">Filtrar por tipo/estado.</li>
+<li class="">Consultar observações.</li>
+</ol>
+<p><strong>Resultado:</strong> Transparência do processo.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc29--relatório-mensal-automático-de-materiais-1">UC29 – Relatório mensal automático de materiais<a href="#uc29--relatório-mensal-automático-de-materiais-1" class="hash-link" aria-label="Direct link to UC29 – Relatório mensal automático de materiais" title="Direct link to UC29 – Relatório mensal automático de materiais" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Sistema</p>
+<p><strong>Objetivo:</strong> Gerar documento com materiais acumulados no mês.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O sistema agrega dados ao longo do mês.</li>
+<li class="">No final, gera relatório.</li>
+<li class="">Envia à secretaria.</li>
+</ol>
+<p><strong>Resultado:</strong> Relatório entregue sem intervenção manual.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-manutenções-1">5. Manutenções<a href="#5-manutenções-1" class="hash-link" aria-label="Direct link to 5. Manutenções" title="Direct link to 5. Manutenções" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc30--reportar-ocorrência-de-manutenção-1">UC30 – Reportar ocorrência de manutenção<a href="#uc30--reportar-ocorrência-de-manutenção-1" class="hash-link" aria-label="Direct link to UC30 – Reportar ocorrência de manutenção" title="Direct link to UC30 – Reportar ocorrência de manutenção" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionário</p>
+<p><strong>Objetivo:</strong> Informar problemas de instalação.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Manutenções”.</li>
+<li class="">Nova ocorrência.</li>
+<li class="">Preencher categoria, prioridade, descrição e anexos.</li>
+</ol>
+<p><strong>Resultado:</strong> Solicitação enviada.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc31--acompanhar-estado-de-ocorrência-1">UC31 – Acompanhar estado de ocorrência<a href="#uc31--acompanhar-estado-de-ocorrência-1" class="hash-link" aria-label="Direct link to UC31 – Acompanhar estado de ocorrência" title="Direct link to UC31 – Acompanhar estado de ocorrência" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionário</p>
+<p><strong>Objetivo:</strong> Ver evolução da manutenção.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Ocorrências Submetidas”.</li>
+<li class="">Consultar estado e comentários.</li>
+</ol>
+<p><strong>Resultado:</strong> Informação atualizada.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc32--atualizar-estado-pela-secretaria-1">UC32 – Atualizar estado pela Secretaria<a href="#uc32--atualizar-estado-pela-secretaria-1" class="hash-link" aria-label="Direct link to UC32 – Atualizar estado pela Secretaria" title="Direct link to UC32 – Atualizar estado pela Secretaria" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Gerir fases da manutenção.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Requisitos - Manutenções”.</li>
+<li class="">Atualizar estado: pendente, em curso, concluído.</li>
+</ol>
+<p><strong>Resultado:</strong> Funcionário notificado.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc33--gerir-manutenções-preventivas-1">UC33 – Gerir manutenções preventivas<a href="#uc33--gerir-manutenções-preventivas-1" class="hash-link" aria-label="Direct link to UC33 – Gerir manutenções preventivas" title="Direct link to UC33 – Gerir manutenções preventivas" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Funcionária da Secretaria</p>
+<p><strong>Objetivo:</strong> Controlar lembretes periódicos.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">O sistema gera lembretes.</li>
+<li class="">A funcionária marca como resolvido/pendente.</li>
+<li class="">Atualiza próxima data.</li>
+</ol>
+<p><strong>Resultado:</strong> Painel atualizado.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-formulários-crecheatl-1">6. Formulários Creche/ATL<a href="#6-formulários-crecheatl-1" class="hash-link" aria-label="Direct link to 6. Formulários Creche/ATL" title="Direct link to 6. Formulários Creche/ATL" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc34--submeter-formulário-de-inscrição-1">UC34 – Submeter formulário de inscrição<a href="#uc34--submeter-formulário-de-inscrição-1" class="hash-link" aria-label="Direct link to UC34 – Submeter formulário de inscrição" title="Direct link to UC34 – Submeter formulário de inscrição" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Encarregado de Educação</p>
+<p><strong>Objetivo:</strong> Submeter candidatura da Creche ou ATL para a secretaria.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Aceder ao portal.</li>
+<li class="">Preencher formulário.</li>
+<li class="">Anexar documentos obrigatórios.</li>
+<li class="">Submeter.</li>
+</ol>
+<p><strong>Resultado:</strong> Candidatura registada.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc35--consultar-estado-da-candidatura-1">UC35 – Consultar estado da candidatura<a href="#uc35--consultar-estado-da-candidatura-1" class="hash-link" aria-label="Direct link to UC35 – Consultar estado da candidatura" title="Direct link to UC35 – Consultar estado da candidatura" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Encarregado de Educação</p>
+<p><strong>Objetivo:</strong> Ver estado atualizado.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir “Minhas Candidaturas”.</li>
+<li class="">Ver estado: pendente, aprovada, incompleta, rejeitada.</li>
+</ol>
+<p><strong>Resultado:</strong> Informação disponível.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc36--editar-e-reenviar-candidatura-1">UC36 – Editar e reenviar candidatura<a href="#uc36--editar-e-reenviar-candidatura-1" class="hash-link" aria-label="Direct link to UC36 – Editar e reenviar candidatura" title="Direct link to UC36 – Editar e reenviar candidatura" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Encarregado de Educação</p>
+<p><strong>Objetivo:</strong> Corrigir informação devolvida pela secretaria.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir candidatura marcada como “Correção necessária”.</li>
+<li class="">Editar.</li>
+<li class="">Reenviar.</li>
+</ol>
+<p><strong>Resultado:</strong> Envio atualizado.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="uc37--enviar-documentação-adicional-1">UC37 – Enviar documentação adicional<a href="#uc37--enviar-documentação-adicional-1" class="hash-link" aria-label="Direct link to UC37 – Enviar documentação adicional" title="Direct link to UC37 – Enviar documentação adicional" translate="no">​</a></h3>
+<p><strong>Ator:</strong> Encarregado de Educação</p>
+<p><strong>Objetivo:</strong> Inserir documentos pedidos após a submissão.</p>
+<p><strong>Fluxo principal:</strong></p>
+<ol>
+<li class="">Abrir candidatura.</li>
+<li class="">“Adicionar Documento”.</li>
+<li class="">Anexar ficheiros.</li>
+</ol>
+<p><strong>Resultado:</strong> Documentos disponíveis para análise.</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/MS-2/usecases.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/platform-docs/docs/MS-2/actors"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Atores</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/platform-docs/docs/MS-2/Non-functionalrequirements"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Requisitos Não Funcionais</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#uc1--autenticar-utilizador" class="table-of-contents__link toc-highlight">UC1 – Autenticar utilizador</a></li><li><a href="#1-autenticação-e-contas" class="table-of-contents__link toc-highlight">1. Autenticação e Contas</a><ul><li><a href="#uc1--autenticar-utilizador-1" class="table-of-contents__link toc-highlight">UC1 – Autenticar utilizador</a></li><li><a href="#uc2--criar-conta-manualmente" class="table-of-contents__link toc-highlight">UC2 – Criar conta manualmente</a></li><li><a href="#uc3--criação-automática-de-conta" class="table-of-contents__link toc-highlight">UC3 – Criação automática de conta</a></li><li><a href="#uc4--envio-de-token-de-acesso" class="table-of-contents__link toc-highlight">UC4 – Envio de token de acesso</a></li></ul></li><li><a href="#2-secretaria" class="table-of-contents__link toc-highlight">2. Secretaria</a><ul><li><a href="#uc5--criar-marcação-presencial" class="table-of-contents__link toc-highlight">UC5 – Criar marcação presencial</a></li><li><a href="#uc6--criar-marcação-remota-utilizador" class="table-of-contents__link toc-highlight">UC6 – Criar marcação remota (utilizador)</a></li><li><a href="#uc7--cancelar-marcação" class="table-of-contents__link toc-highlight">UC7 – Cancelar marcação</a></li><li><a href="#uc8--consultar-e-gerir-agenda" class="table-of-contents__link toc-highlight">UC8 – Consultar e gerir agenda</a></li><li><a href="#uc9--atualizar-estado-das-marcações" class="table-of-contents__link toc-highlight">UC9 – Atualizar estado das marcações</a></li><li><a href="#uc10--gerir-requisições" class="table-of-contents__link toc-highlight">UC10 – Gerir requisições</a></li><li><a href="#uc11--enviar-notificações-administrativas-lembretes-e-prazos" class="table-of-contents__link toc-highlight">UC11 – Enviar notificações administrativas (lembretes e prazos)</a></li><li><a href="#uc12--gerar-relatórios" class="table-of-contents__link toc-highlight">UC12 – Gerar relatórios</a></li><li><a href="#uc13--consultar-dados-logísticos" class="table-of-contents__link toc-highlight">UC13 – Consultar dados logísticos</a></li><li><a href="#uc14--gerir-contas-internas" class="table-of-contents__link toc-highlight">UC14 – Gerir contas internas</a></li><li><a href="#uc15--criação-automática-de-conta-durante-marcação" class="table-of-contents__link toc-highlight">UC15 – Criação automática de conta durante marcação</a></li><li><a href="#uc16--enviar-token-de-acesso-após-criação-automática" class="table-of-contents__link toc-highlight">UC16 – Enviar token de acesso após criação automática</a></li><li><a href="#uc17--enviar-token-para-recuperar-a-palavra-passe" class="table-of-contents__link toc-highlight">UC17 – Enviar token para recuperar a palavra-passe</a></li><li><a href="#uc18--enviar-token-novo-caso-estiver-expirado" class="table-of-contents__link toc-highlight">UC18 – Enviar token novo caso estiver expirado</a></li><li><a href="#uc19--consultar-e-filtrar-marcações-passadas" class="table-of-contents__link toc-highlight">UC19 – Consultar e filtrar marcações passadas</a></li><li><a href="#uc20--definir-palavra-passe-no-primeiro-acesso-via-token" class="table-of-contents__link toc-highlight">UC20 – Definir palavra-passe no primeiro acesso via token</a></li></ul></li><li><a href="#3-balneário-social" class="table-of-contents__link toc-highlight">3. Balneário Social</a><ul><li><a href="#uc21--marcação-pelo-técnico" class="table-of-contents__link toc-highlight">UC21 – Marcação pelo técnico</a></li><li><a href="#uc22--registar-presença-sem-técnico" class="table-of-contents__link toc-highlight">UC22 – Registar presença sem técnico</a></li><li><a href="#uc23--confirmar-presença-e-consumos" class="table-of-contents__link toc-highlight">UC23 – Confirmar presença e consumos</a></li><li><a href="#uc24--consultar-e-cancelar-marcações" class="table-of-contents__link toc-highlight">UC24 – Consultar e cancelar marcações</a></li><li><a href="#uc25--relatórios-do-balneário" class="table-of-contents__link toc-highlight">UC25 – Relatórios do balneário</a></li></ul></li><li><a href="#4-requisições-de-material-e-transporte" class="table-of-contents__link toc-highlight">4. Requisições de Material e Transporte</a><ul><li><a href="#uc26--criar-requisição-de-material" class="table-of-contents__link toc-highlight">UC26 – Criar requisição de material</a></li><li><a href="#uc27--criar-requisição-de-transporte" class="table-of-contents__link toc-highlight">UC27 – Criar requisição de transporte</a></li><li><a href="#uc28--acompanhar-estado-das-requisições" class="table-of-contents__link toc-highlight">UC28 – Acompanhar estado das requisições</a></li><li><a href="#uc29--relatório-mensal-automático-de-materiais" class="table-of-contents__link toc-highlight">UC29 – Relatório mensal automático de materiais</a></li></ul></li><li><a href="#5-manutenções" class="table-of-contents__link toc-highlight">5. Manutenções</a><ul><li><a href="#uc30--reportar-ocorrência-de-manutenção" class="table-of-contents__link toc-highlight">UC30 – Reportar ocorrência de manutenção</a></li><li><a href="#uc31--acompanhar-estado-de-ocorrência" class="table-of-contents__link toc-highlight">UC31 – Acompanhar estado de ocorrência</a></li><li><a href="#uc32--atualizar-estado-pela-secretaria" class="table-of-contents__link toc-highlight">UC32 – Atualizar estado pela Secretaria</a></li><li><a href="#uc33--gerir-manutenções-preventivas" class="table-of-contents__link toc-highlight">UC33 – Gerir manutenções preventivas</a></li></ul></li><li><a href="#6-formulários-crecheatl" class="table-of-contents__link toc-highlight">6. Formulários Creche/ATL</a><ul><li><a href="#uc34--submeter-formulário-de-inscrição" class="table-of-contents__link toc-highlight">UC34 – Submeter formulário de inscrição</a></li><li><a href="#uc35--consultar-estado-da-candidatura" class="table-of-contents__link toc-highlight">UC35 – Consultar estado da candidatura</a></li><li><a href="#uc36--editar-e-reenviar-candidatura" class="table-of-contents__link toc-highlight">UC36 – Editar e reenviar candidatura</a></li><li><a href="#uc37--enviar-documentação-adicional" class="table-of-contents__link toc-highlight">UC37 – Enviar documentação adicional</a></li><li><a href="#uc27--criar-requisição-de-transporte-1" class="table-of-contents__link toc-highlight">UC27 – Criar requisição de transporte</a></li><li><a href="#uc28--acompanhar-estado-das-requisições-1" class="table-of-contents__link toc-highlight">UC28 – Acompanhar estado das requisições</a></li></ul></li><li><a href="#4-requisições-de-material-e-transporte-1" class="table-of-contents__link toc-highlight">4. Requisições de Material e Transporte</a><ul><li><a href="#uc26--criar-requisição-de-material-1" class="table-of-contents__link toc-highlight">UC26 – Criar requisição de material</a></li><li><a href="#uc27--criar-requisição-de-transporte-2" class="table-of-contents__link toc-highlight">UC27 – Criar requisição de transporte</a></li><li><a href="#uc28--acompanhar-estado-das-requisições-2" class="table-of-contents__link toc-highlight">UC28 – Acompanhar estado das requisições</a></li><li><a href="#uc29--relatório-mensal-automático-de-materiais-1" class="table-of-contents__link toc-highlight">UC29 – Relatório mensal automático de materiais</a></li></ul></li><li><a href="#5-manutenções-1" class="table-of-contents__link toc-highlight">5. Manutenções</a><ul><li><a href="#uc30--reportar-ocorrência-de-manutenção-1" class="table-of-contents__link toc-highlight">UC30 – Reportar ocorrência de manutenção</a></li><li><a href="#uc31--acompanhar-estado-de-ocorrência-1" class="table-of-contents__link toc-highlight">UC31 – Acompanhar estado de ocorrência</a></li><li><a href="#uc32--atualizar-estado-pela-secretaria-1" class="table-of-contents__link toc-highlight">UC32 – Atualizar estado pela Secretaria</a></li><li><a href="#uc33--gerir-manutenções-preventivas-1" class="table-of-contents__link toc-highlight">UC33 – Gerir manutenções preventivas</a></li></ul></li><li><a href="#6-formulários-crecheatl-1" class="table-of-contents__link toc-highlight">6. Formulários Creche/ATL</a><ul><li><a href="#uc34--submeter-formulário-de-inscrição-1" class="table-of-contents__link toc-highlight">UC34 – Submeter formulário de inscrição</a></li><li><a href="#uc35--consultar-estado-da-candidatura-1" class="table-of-contents__link toc-highlight">UC35 – Consultar estado da candidatura</a></li><li><a href="#uc36--editar-e-reenviar-candidatura-1" class="table-of-contents__link toc-highlight">UC36 – Editar e reenviar candidatura</a></li><li><a href="#uc37--enviar-documentação-adicional-1" class="table-of-contents__link toc-highlight">UC37 – Enviar documentação adicional</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="margin-bottom--sm"><a href="https://github.com/UA-IPSS-Project" rel="noopener noreferrer" class="footerLogoLink_BH7S"><img src="/platform-docs/img/github-mark-white.svg" alt="Our repository logo" class="footer__logo themedComponent_mlkZ themedComponent--light_NVdE" width="24" height="24"><img src="/platform-docs/img/github-mark-white.svg" alt="Our repository logo" class="footer__logo themedComponent_mlkZ themedComponent--dark_xIcU" width="24" height="24"></a></div><div class="footer__copyright">Engenharia Informática - PEI <br> Copyright © 2025/2026</div></div></div></footer></div>
+</body>
+</html>
