@@ -9,20 +9,14 @@ npm install
 ```
 
 ## Local Development
-
+### AKA rodar no pc
 ```bash
-npm server
-```
-
-
-## Build
-
-```bash
-npm build
+npm run start
 ```
 
 
 ## Deployment
+### Mandar po site  
 ```bash
 npm run build
 $env:GIT_USER="UA-IPSS-Project"
