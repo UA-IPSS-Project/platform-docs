@@ -738,3 +738,9 @@ Atualizados de acordo com o sistema.
 3. Anexar ficheiros.
 
 **Resultado:** Documentos disponíveis para análise.
+
+
+
+## Use Cases Diagram
+
+![UseCases](./img/UseCases.png)

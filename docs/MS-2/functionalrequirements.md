@@ -1,9 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Requisitos Funcionais
-Atualizados de acordo com a necessidade do cliente.
 
 ## 1. Requisitos Funcionais (RF)
 

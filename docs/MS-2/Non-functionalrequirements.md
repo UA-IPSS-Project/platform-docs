@@ -1,29 +1,30 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Requisitos Não Funcionais
-Não sofreram alterações.
-
-> (Como o sistema deve comportar-se.)
 
 ## 2.1 Usabilidade
-- **RNF1.1** A interface deve ser simples e intuitiva, adequada a utilizadores com literacia digital básica.
-- **RNF1.2** O design deve ser responsivo, adaptando-se a computador, tablet e telemóvel.
-- **RNF1.3** Deve existir feedback visual imediato nas ações (confirmações, erros, notificações).
+- **RNF1.1** O sistema deve ser intuitivo, permitindo que utilizadores com literacia digital básica completem tarefas principais sem treino.
+- **RNF1.2** O design deve ser totalmente responsivo, garantindo uma visualização e funcionalidade corretas em computadores, tablets e smartphones.
+- **RNF1.3** Todas as ações do utilizador devem gerar feedback visual imediato (confirmações de sucesso, alertas de erro ou indicadores de loading).
+
 
 ## 2.2 Desempenho
-- **RNF2.1** As operações básicas (guardar, pesquisar, cancelar) devem ter resposta inferior a 2 segundos.
-- **RNF2.2** O sistema deve suportar múltiplos utilizadores simultaneamente sem degradação visível.
+- **RNF2.1** O tempo de resposta para as operações críticas (ex: guardar um registo, login, pesquisa de metadados) deve ser inferior a 1 segundo. 
+- **RNF2.2** O sistema deve conseguir lidar com pelo menos 50 utilizadores simultâneos a realizar operações ativas sem que a degradação da performance seja percetível.
+- **RNF2.3** O carregamento inicial da página (frontend) deve ser rápido, não excedendo 3 segundos mesmo em condições de rede moderadas.
+  
 
 ## 2.3 Segurança e Privacidade
-- **RNF3.1** O sistema deve cumprir o RGPD, com perfis diferenciados e encriptação de dados sensíveis.
-- **RNF3.2** Os dados devem ser armazenados no servidor interno.
+- **RNF3.1** O sistema deve cumprir integralmente o Regulamento Geral de Proteção de Dados (RGPD). A comunicação deve ser encriptada (HTTPS) e os dados sensíveis devem ser armazenados de forma segura (hashing/encriptação).
+- **RNF3.2** Todos os dados da aplicação e ficheiros devem ser armazenados exclusivamente no servidor local interno da empresa.
+
 
 ## 2.4 Fiabilidade e Manutenção
-- **RNF4.1** O sistema deve garantir integridade de dados e tolerância a falhas de rede.
-- **RNF4.2** Devem ser realizados backups automáticos diários com restauração simples.
-- **RNF4.3** Deve existir documentação técnica atualizada.
+- **RNF4.1** A arquitetura deve garantir tolerância a falhas. A falha de um contentor/serviço não deve interromper o funcionamento total do sistema.
+- **RNF4.2** Devem ser realizados backups automáticos diários de todos os dados e ficheiros. O sistema deve ser restaurável (restauração total de dados) em menos de 4 horas.
+- **RNF4.3** Deve ser mantida documentação técnica atualizada que reflita o estado atual da aplicação, facilitando futuras manutenções.
 
 ## 2.5 Identidade e Comunicação
 - **RNF5.1** A interface e relatórios devem seguir a identidade visual das Florinhas do Vouga.
