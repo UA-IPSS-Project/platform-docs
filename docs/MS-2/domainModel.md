@@ -1,14 +1,14 @@
 ---
 sidebar_position: 7
 ---
-# Domain Model 
+# Modelo de Domínio
 
 
-## Diagram Entity Relationship
+## Diagrama de Entidade-Relacionamento
 
 ![DER](./img/DER.png)
 
 
-## Domain Model Diagram
+## Diagrama de Modelo do Domínio
 
 ![DomainModel](./img/DomainModel.png)

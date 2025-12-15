@@ -1,11 +1,11 @@
 ---
 sidebar_position: 8
 ---
-# Deployment Architecture
+# Diagrama de Deployment
 
 
 
 
-## Deployment Diagram
+## Diagrama de Deployment
 
 ![ArchitectureV02](./img/Arquitetura-v02.png)

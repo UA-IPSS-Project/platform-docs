@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Context and State of the Art (SOA)
+# Contexto e Estado de Arte 
 
 ### *Contexto Operacional e Práticas Existentes*
 
