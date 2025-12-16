@@ -8,4 +8,4 @@ Nesta fase a arquitetura encontra-se na seguinte forma:
 
 </div>
 
-Para *MVP*, temos só o serviço das marcações, que está diretamente ligado com o *frontend*, futuramente, esperasse ter o orquestrador de serviços a fazer a ligação entre o *frontend* e os vários serviços.
+Para *MVP*, temos só o serviço das marcações, que está diretamente ligado com o *frontend*, futuramente, espera-se ter o orquestrador de serviços a fazer a ligação entre o *frontend* e os vários serviços.
