@@ -4,25 +4,6 @@ sidebar_position: 6
 # Use Cases
 Atualizados de acordo com o sistema.
 
-1. Autenticação e Contas
-
-### UC1 – Autenticar utilizador
-**Ator:** Qualquer utilizador
-
-**Objetivo:** Aceder ao sistema através de NIF ou email institucional.
-
-**Pré-condição:** O utilizador tem conta ativa ou é elegível para criação automática.
-
-**Fluxo principal:**
-1. O utilizador insere NIF ou email.
-2. O sistema valida o formato:
-    - 9 dígitos → perfil de utilizador/encarregado/utente. Validação de NIF pelo “nif.pt”
-    - email @florinhas.pt → funcionário interno.
-3. O utilizador insere palavra-passe.
-4. O sistema valida credenciais e inicia sessão.
-
-# Casos de Uso (Use Cases)
-
 ## 1. Autenticação e Contas
 
 ### UC1 – Autenticar utilizador
@@ -36,7 +17,7 @@ Atualizados de acordo com o sistema.
 1. O utilizador insere NIF ou email.
 2. O sistema valida o formato:
    - 9 dígitos → perfil de utilizador/encarregado/utente. Validação de NIF pelo “nif.pt”
-   - email @florinhas.pt → funcionário interno.
+   - email @florinhasdovouga.pt → funcionário interno.
 3. O utilizador insere palavra-passe.
 4. O sistema valida credenciais e inicia sessão.
 
