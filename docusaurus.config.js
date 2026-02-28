@@ -21,6 +21,7 @@ const config = {
 
   url: 'https://UA-IPSS-Project.github.io',
   baseUrl: '/platform-docs/',
+  trailingSlash: true,
   organizationName: 'UA-IPSS-Project',
   projectName: 'platform-docs',
 

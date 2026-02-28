@@ -28,7 +28,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className={clsx('button button--outline button--lg', styles.secondaryBtn)}
-            to="/docs/MS-3/demo">
+            to="/docs/MS-3/semestre-1/demo">
             Ver demo
           </Link>
         </div>

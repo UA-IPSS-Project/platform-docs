@@ -19,7 +19,12 @@ npm run start
 ### Mandar po site  
 ```bash
 npm run build
-$env:GIT_USER="UA-IPSS-Project"
+GIT_USER="XXX" USE_SSH="true" npx docusaurus deploy
+```
+
+### Alternativa Windows
+```powershell
+$env:GIT_USER="XXX"
 $env:USE_SSH="false"
 npx docusaurus deploy
 ```
