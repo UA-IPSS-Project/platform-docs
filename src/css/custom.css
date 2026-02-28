@@ -108,6 +108,228 @@
   color: currentColor;
 }
 
+.about-hero-card {
+  margin: 0.9rem 0 1.25rem;
+  padding: 1.25rem 1.2rem;
+  border-radius: 14px;
+  border: 1px solid rgba(213, 132, 183, 0.35);
+  background: linear-gradient(180deg, #fff6fb, #fff0f8);
+}
+
+.about-hero-card h2 {
+  margin: 0 0 0.45rem;
+  color: #4f2641;
+}
+
+.about-hero-card p {
+  margin: 0;
+  color: #6f4a63;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin: 0 0 1.2rem;
+}
+
+.about-card {
+  border-radius: 14px;
+  border: 1px solid rgba(213, 132, 183, 0.3);
+  background: #ffffff;
+  padding: 1rem 1.05rem;
+}
+
+.about-card h3 {
+  margin: 0 0 0.45rem;
+  color: #5d2d4d;
+}
+
+.about-card p {
+  margin: 0;
+  color: #67465b;
+}
+
+.about-team-card {
+  margin-top: 0.55rem;
+  border-radius: 14px;
+  border: 1px solid rgba(213, 132, 183, 0.35);
+  background: linear-gradient(180deg, #fff9fc, #fff3f9);
+  padding: 1rem 1.05rem;
+}
+
+.about-team-table-wrap {
+  overflow-x: auto;
+  margin-top: 0.7rem;
+}
+
+.about-team-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid rgba(213, 132, 183, 0.35);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+  font-size: 0.95rem;
+}
+
+.about-team-table thead th {
+  text-align: left;
+  padding: 0.72rem 0.8rem;
+  background: linear-gradient(180deg, #ffe7f4, #ffdced);
+  color: #4f2641;
+  border-bottom: 1px solid rgba(213, 132, 183, 0.35);
+}
+
+.about-team-table tbody td {
+  padding: 0.68rem 0.8rem;
+  border-bottom: 1px solid rgba(213, 132, 183, 0.2);
+  vertical-align: middle;
+}
+
+.about-team-table th:first-child,
+.about-team-table td:first-child {
+  width: 88px;
+}
+
+.about-team-table tbody tr:nth-child(even) {
+  background: #fff8fc;
+}
+
+.about-team-table tbody tr:hover {
+  background: #fff0f8;
+}
+
+.about-team-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.about-team-photo {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  object-fit: cover;
+  display: block;
+  border: 2px solid rgba(213, 132, 183, 0.35);
+  background: #fff;
+}
+
+.about-role-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin-top: 0.95rem;
+  margin-bottom: 1.35rem;
+}
+
+.about-role-card {
+  border: 1px solid rgba(213, 132, 183, 0.3);
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 1rem;
+}
+
+.about-role-card h4 {
+  margin: 0 0 0.65rem;
+  color: #5d2d4d;
+}
+
+.about-role-member {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 1rem;
+}
+
+.about-role-member:last-child {
+  margin-bottom: 0;
+}
+
+.about-role-member strong {
+  display: block;
+  line-height: 1.25;
+  color: #4f2641;
+}
+
+.about-role-member span {
+  font-size: 0.85rem;
+  color: #7c5671;
+}
+
+[data-theme='dark'] .about-hero-card,
+[data-theme='dark'] .about-team-card {
+  border-color: rgba(255, 200, 229, 0.25);
+  background: linear-gradient(180deg, rgba(255, 219, 239, 0.12), rgba(255, 219, 239, 0.06));
+}
+
+[data-theme='dark'] .about-hero-card h2,
+[data-theme='dark'] .about-card h3 {
+  color: #ffe3f1;
+}
+
+[data-theme='dark'] .about-hero-card p,
+[data-theme='dark'] .about-card p {
+  color: #efc7dd;
+}
+
+[data-theme='dark'] .about-card {
+  border-color: rgba(255, 200, 229, 0.2);
+  background: rgba(255, 219, 239, 0.04);
+}
+
+[data-theme='dark'] .about-team-table {
+  border-color: rgba(255, 200, 229, 0.25);
+  background: rgba(255, 219, 239, 0.04);
+}
+
+[data-theme='dark'] .about-team-table thead th {
+  color: #ffe3f1;
+  background: linear-gradient(180deg, rgba(255, 219, 239, 0.2), rgba(255, 219, 239, 0.11));
+  border-bottom-color: rgba(255, 200, 229, 0.25);
+}
+
+[data-theme='dark'] .about-team-table tbody td {
+  color: #efc7dd;
+  border-bottom-color: rgba(255, 200, 229, 0.15);
+}
+
+[data-theme='dark'] .about-team-table tbody tr:nth-child(even) {
+  background: rgba(255, 219, 239, 0.03);
+}
+
+[data-theme='dark'] .about-team-table tbody tr:hover {
+  background: rgba(255, 219, 239, 0.08);
+}
+
+[data-theme='dark'] .about-team-photo {
+  border-color: rgba(255, 200, 229, 0.35);
+}
+
+[data-theme='dark'] .about-role-card {
+  border-color: rgba(255, 200, 229, 0.2);
+  background: rgba(255, 219, 239, 0.04);
+}
+
+[data-theme='dark'] .about-role-card h4,
+[data-theme='dark'] .about-role-member strong {
+  color: #ffe3f1;
+}
+
+[data-theme='dark'] .about-role-member span {
+  color: #efc7dd;
+}
+
+@media (max-width: 996px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-role-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .theme-doc-sidebar-menu > .menu__list > .menu__list-item > .menu__list-item-collapsible {
   margin: 0.2rem 0 0.35rem;
   border-radius: 10px;
@@ -137,4 +359,63 @@
 
 [data-theme='dark'] .theme-doc-sidebar-menu > .menu__list > .menu__list-item > .menu__list-item-collapsible:hover {
   border-color: rgba(255, 200, 229, 0.55);
+}
+
+html[class*='docs-doc-id-MS-1/'] .theme-doc-markdown.markdown,
+html[class*='docs-doc-id-MS-2/'] .theme-doc-markdown.markdown,
+html[class*='docs-doc-id-MS-3/'] .theme-doc-markdown.markdown {
+  border: 1px solid rgba(213, 132, 183, 0.3);
+  border-radius: 14px;
+  background: linear-gradient(180deg, #fff9fc, #fff3f9);
+  padding: 1rem 1.05rem;
+}
+
+html[class*='docs-doc-id-MS-1/'] .theme-doc-markdown.markdown > header,
+html[class*='docs-doc-id-MS-2/'] .theme-doc-markdown.markdown > header,
+html[class*='docs-doc-id-MS-3/'] .theme-doc-markdown.markdown > header {
+  margin-bottom: 0.7rem;
+}
+
+html[class*='docs-doc-id-MS-1/'] .theme-doc-markdown.markdown > :is(p, ul, ol, table, blockquote, pre),
+html[class*='docs-doc-id-MS-2/'] .theme-doc-markdown.markdown > :is(p, ul, ol, table, blockquote, pre),
+html[class*='docs-doc-id-MS-3/'] .theme-doc-markdown.markdown > :is(p, ul, ol, table, blockquote, pre) {
+  border: 1px solid rgba(213, 132, 183, 0.26);
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 0.8rem 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+html[class*='docs-doc-id-MS-1/'] .theme-doc-markdown.markdown > :is(h2, h3, h4),
+html[class*='docs-doc-id-MS-2/'] .theme-doc-markdown.markdown > :is(h2, h3, h4),
+html[class*='docs-doc-id-MS-3/'] .theme-doc-markdown.markdown > :is(h2, h3, h4) {
+  margin-top: 1rem;
+  margin-bottom: 0.45rem;
+  color: #5d2d4d;
+}
+
+html[class*='docs-doc-id-MS-1/'] .theme-doc-markdown.markdown > :is(ul, ol),
+html[class*='docs-doc-id-MS-2/'] .theme-doc-markdown.markdown > :is(ul, ol),
+html[class*='docs-doc-id-MS-3/'] .theme-doc-markdown.markdown > :is(ul, ol) {
+  padding-left: 1.9rem;
+}
+
+html[data-theme='dark'][class*='docs-doc-id-MS-1/'] .theme-doc-markdown.markdown,
+html[data-theme='dark'][class*='docs-doc-id-MS-2/'] .theme-doc-markdown.markdown,
+html[data-theme='dark'][class*='docs-doc-id-MS-3/'] .theme-doc-markdown.markdown {
+  border-color: rgba(255, 200, 229, 0.2);
+  background: linear-gradient(180deg, rgba(255, 219, 239, 0.12), rgba(255, 219, 239, 0.06));
+}
+
+html[data-theme='dark'][class*='docs-doc-id-MS-1/'] .theme-doc-markdown.markdown > :is(p, ul, ol, table, blockquote, pre),
+html[data-theme='dark'][class*='docs-doc-id-MS-2/'] .theme-doc-markdown.markdown > :is(p, ul, ol, table, blockquote, pre),
+html[data-theme='dark'][class*='docs-doc-id-MS-3/'] .theme-doc-markdown.markdown > :is(p, ul, ol, table, blockquote, pre) {
+  border-color: rgba(255, 200, 229, 0.2);
+  background: rgba(255, 219, 239, 0.04);
+}
+
+html[data-theme='dark'][class*='docs-doc-id-MS-1/'] .theme-doc-markdown.markdown > :is(h2, h3, h4),
+html[data-theme='dark'][class*='docs-doc-id-MS-2/'] .theme-doc-markdown.markdown > :is(h2, h3, h4),
+html[data-theme='dark'][class*='docs-doc-id-MS-3/'] .theme-doc-markdown.markdown > :is(h2, h3, h4) {
+  color: #ffe3f1;
 }
