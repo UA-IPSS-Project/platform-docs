@@ -419,3 +419,56 @@ html[data-theme='dark'][class*='docs-doc-id-MS-2/'] .theme-doc-markdown.markdown
 html[data-theme='dark'][class*='docs-doc-id-MS-3/'] .theme-doc-markdown.markdown > :is(h2, h3, h4) {
   color: #ffe3f1;
 }
+
+html[class*='docs-doc-id-MS-1/personas'] .theme-doc-markdown.markdown .persona-row {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+  margin: 0.6rem 0 0.95rem;
+}
+
+html[class*='docs-doc-id-MS-1/personas'] .theme-doc-markdown.markdown .persona-row > .persona-photo-card,
+html[class*='docs-doc-id-MS-1/personas'] .theme-doc-markdown.markdown .persona-row > .persona-text-card {
+  border: 1px solid rgba(213, 132, 183, 0.26);
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 0.85rem;
+}
+
+html[class*='docs-doc-id-MS-1/personas'] .theme-doc-markdown.markdown .persona-row > .persona-photo-card {
+  display: flex;
+  justify-content: center;
+}
+
+html[class*='docs-doc-id-MS-1/personas'] .theme-doc-markdown.markdown .persona-row > .persona-photo-card > img {
+  width: 170px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid rgba(213, 132, 183, 0.35);
+}
+
+html[class*='docs-doc-id-MS-1/personas'] .theme-doc-markdown.markdown .persona-row > .persona-text-card > p {
+  margin-bottom: 0.35rem;
+}
+
+html[data-theme='dark'][class*='docs-doc-id-MS-1/personas'] .theme-doc-markdown.markdown .persona-row > .persona-photo-card,
+html[data-theme='dark'][class*='docs-doc-id-MS-1/personas'] .theme-doc-markdown.markdown .persona-row > .persona-text-card {
+  border-color: rgba(255, 200, 229, 0.2);
+  background: rgba(255, 219, 239, 0.04);
+}
+
+html[data-theme='dark'][class*='docs-doc-id-MS-1/personas'] .theme-doc-markdown.markdown .persona-row > .persona-photo-card > img {
+  border-color: rgba(255, 200, 229, 0.35);
+}
+
+@media (max-width: 996px) {
+  html[class*='docs-doc-id-MS-1/personas'] .theme-doc-markdown.markdown .persona-row {
+    grid-template-columns: 1fr;
+  }
+
+  html[class*='docs-doc-id-MS-1/personas'] .theme-doc-markdown.markdown .persona-row > .persona-photo-card > img {
+    width: 140px;
+  }
+}
