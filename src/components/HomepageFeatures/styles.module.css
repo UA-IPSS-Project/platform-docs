@@ -1,8 +1,9 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 3rem 0 3.8rem;
   width: 100%;
+  background: linear-gradient(180deg, #fff4fa 0%, #ffeef7 100%);
 }
 
 .featureSvg {
@@ -22,7 +23,54 @@
   height: 100%;
   object-fit: contain;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 0.7rem;
+  transition: transform 0.25s ease;
+}
+
+.featureCol {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.featureCard {
+  width: 100%;
+  border-radius: 18px;
+  padding: 1.3rem 1rem 1.4rem;
+  background: linear-gradient(180deg, #ffffff, #fff8fc);
+  border: 1px solid rgba(224, 136, 189, 0.45);
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  border-color: rgba(211, 106, 168, 0.78);
+  box-shadow: 0 16px 30px rgba(130, 68, 111, 0.2);
+}
+
+.featureCard:hover .featureImg {
+  transform: scale(1.04);
+}
+
+.featureBadge {
+  width: fit-content;
+  margin: 0 auto 0.8rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #5f2f50;
+  background: rgba(255, 224, 240, 0.95);
+}
+
+.featureTitle {
+  color: #5d2d4d;
+  font-size: 1.6rem;
+}
+
+.featureDescription {
+  color: #6f4a63;
+  line-height: 1.65;
+  font-size: 1.03rem;
 }
 
 .text--center {
@@ -31,4 +79,60 @@
 
 .padding-horiz--md {
   padding: 0 1rem;
+}
+
+.featuresIntro {
+  text-align: center;
+  margin: 0 auto 2rem;
+  max-width: 780px;
+}
+
+.featuresIntro h2 {
+  color: #5d2d4d;
+  margin-bottom: 0.6rem;
+}
+
+.featuresIntro p {
+  color: #7a5570;
+  font-size: 1.03rem;
+}
+
+[data-theme='dark'] .features {
+  background: linear-gradient(180deg, #151922 0%, #171922 100%);
+}
+
+[data-theme='dark'] .featureCard {
+  background: linear-gradient(180deg, rgba(255, 219, 239, 0.09), rgba(255, 219, 239, 0.04));
+  border: 1px solid rgba(255, 201, 229, 0.22);
+}
+
+[data-theme='dark'] .featureCard:hover {
+  border-color: rgba(255, 201, 229, 0.5);
+  box-shadow: 0 16px 30px rgba(7, 9, 12, 0.35);
+}
+
+[data-theme='dark'] .featureTitle {
+  color: #ffe6f3;
+}
+
+[data-theme='dark'] .featureDescription {
+  color: #f8ddeb;
+}
+
+[data-theme='dark'] .featuresIntro h2 {
+  color: #ffdff0;
+}
+
+[data-theme='dark'] .featuresIntro p {
+  color: #eec6dc;
+}
+
+@media (max-width: 996px) {
+  .features {
+    padding-top: 2.2rem;
+  }
+
+  .featureCard {
+    margin-bottom: 0.8rem;
+  }
 }

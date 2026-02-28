@@ -75,7 +75,8 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
-        respectPrefersColorScheme: true,
+        defaultMode: 'light',
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: 'IPSS',
@@ -110,13 +111,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        logo: {
-          alt: 'Our repository logo',
-          src: 'img/github-mark-white.svg',
-          href: 'https://github.com/UA-IPSS-Project',
-          width: 24,
-          height: 24,
-        },       
         copyright:  `Engenharia Informática - PEI <br> Copyright © 2025/2026`,
       },
       prism: {

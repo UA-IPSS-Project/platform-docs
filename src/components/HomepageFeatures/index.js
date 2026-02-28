@@ -33,16 +33,19 @@ const FeatureList = [
 ];
 
 
-function Feature({img, title, description}) {
+function Feature({img, title, description, index}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <img src={img} alt={title} className={styles.featureImg} />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
+    <div className={clsx('col col--4', styles.featureCol)}>
+      <article className={styles.featureCard}>
+        <div className={styles.featureBadge}>0{index + 1}</div>
+        <div className="text--center">
+          <img src={img} alt={title} className={styles.featureImg} />
+        </div>
+        <div className="text--center padding-horiz--md">
+          <Heading as="h3" className={styles.featureTitle}>{title}</Heading>
+          <p className={styles.featureDescription}>{description}</p>
+        </div>
+      </article>
     </div>
   );
 }
@@ -52,9 +55,15 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className={styles.featuresIntro}>
+          <h2>Uma plataforma pensada para servir melhor</h2>
+          <p>
+            Mantemos uma experiência simples, com foco humano e tecnologia moderna para apoiar as operações da IPSS.
+          </p>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+            <Feature key={idx} index={idx} {...props} />
           ))}
         </div>
       </div>
