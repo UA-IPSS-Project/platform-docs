@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Plataforma Digital IPSS',
   tagline: 'Modernização e eficiência na gestão de marcações e requisições.',
-  favicon: 'img/flogo.svg',
+  favicon: 'img/outros/flogo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -74,7 +74,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/outros/IPSSDigital-social-card.png',
       colorMode: {
         defaultMode: 'light',
         respectPrefersColorScheme: false,
@@ -83,7 +83,7 @@ const config = {
         title: 'IPSS',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/flogo.svg',
+          src: 'img/outros/flogo.svg',
         },
         items: [
           {
