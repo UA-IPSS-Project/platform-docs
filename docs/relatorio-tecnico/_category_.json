@@ -1,0 +1,8 @@
+{
+  "label": "Relatório Técnico",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentação técnica completa do projeto, incluindo análise detalhada das implementações, arquitetura do sistema e decisões técnicas."
+  }
+}
